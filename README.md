@@ -47,3 +47,6 @@ Tim Cody's Data Science Portfolio
 
 ###### The project's analysis of the transfer network and factors influencing transfer decisions led to some important results. It was discovered that a small number of highly connected players had a significant impact on the network's connectivity and the decisions of other players. Additionally, the transfer networks are becoming increasingly connected over time, indicating that players' transfer behavior is becoming more interconnected and potentially more influenced by the decisions of others. The project's prediction model for transfers was also found to be highly accurate, with advanced statistics from the previous year being the most important feature in predicting transfers, followed by year in school and recruiting ranking. These results provide valuable insights for college basketball coaches and administrators in understanding the transfer portal's impact on the sport.
 
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/Results.png"/>
+</p>
