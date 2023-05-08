@@ -14,7 +14,7 @@ Tim Cody's Data Science Portfolio
 <p align="center">
   <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/img2DDI.png"/>
 </p>
-
+![](https://github.com/Tcody6/tcody6.github.io/blob/main/img2DDI.png)
 
 
 ## NFL Big Data Bowl 2023: Expected Protection Time
