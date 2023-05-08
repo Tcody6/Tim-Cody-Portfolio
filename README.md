@@ -27,9 +27,23 @@ Tim Cody's Data Science Portfolio
 <p align="center">
   <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/PlayerEPT.png"/>
 </p>
-TeamEPT
 
 ## Best Buy Sales Forecasting
 ###### During the Best Buy MSA Project Week, I was part of a team that worked on forecasting slow-selling SKUs using time series analysis and machine learning techniques. Our main goal was to create a final dataset for model training by researching and sourcing external data for reuse and inclusion in the model. We also identified trends and seasonality patterns in the data to improve the model accuracy.
 
 ###### To achieve our objective, we tested multiple models and ultimately selected XGBoost due to its superior performance in both accuracy and computational speed. The project required a combination of technical and analytical skills, including data cleaning, exploratory data analysis, feature engineering, and model selection. By using XGBoost, we were able to generate accurate forecasts that helped Best Buy optimize their inventory and improve their bottom line. 
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/FI.jpg"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/Trends.png"/>
+</p>
+
+
+## College Basketball Transfer Portal Network Analysis
+###### The project focuses on analyzing the patterns and dynamics of player movements within the college basketball transfer portal using network analysis techniques. The authors aim to visualize the transfer network to identify the connections between different schools and conferences. The significance of the project lies in its potential to provide a better understanding of the transfer portal and its impact on college basketball, allowing for coaches to better plan for their future teams and target players on other teams.
+
+###### The project involves extracting data from College Basketball Reference and creating links between players as they move between teams. By constructing graphs from the player tracking data, the authors can represent player interactions and movements as a network, where nodes represent players and edges represent connections between them. The visualization of the transfer network provides a dynamic representation of the movement of players over time, allowing for the identification of patterns and trends in player movement. The authors also plan to apply machine learning techniques to perform link prediction to predict future player movements based on the network's current state and other factors.
+
+###### The project's analysis of the transfer network and factors influencing transfer decisions led to some important results. It was discovered that a small number of highly connected players had a significant impact on the network's connectivity and the decisions of other players. Additionally, the transfer networks are becoming increasingly connected over time, indicating that players' transfer behavior is becoming more interconnected and potentially more influenced by the decisions of others. The project's prediction model for transfers was also found to be highly accurate, with advanced statistics from the previous year being the most important feature in predicting transfers, followed by year in school and recruiting ranking. These results provide valuable insights for college basketball coaches and administrators in understanding the transfer portal's impact on the sport.
+
