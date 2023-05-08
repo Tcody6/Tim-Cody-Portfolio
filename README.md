@@ -11,13 +11,25 @@ Tim Cody's Data Science Portfolio
 ###### The final model developed in this study achieved a training accuracy of over 90%, which is on par with existing methods available in the literature. However, further improvements are possible by making changes to the drug representation or the structure of the network. Despite achieving high overall accuracy, the model struggled with some classes of DDIs, highlighting the need for further research to improve accuracy in these areas.
 
 ###### In summary, this project contributes to the development of effective strategies for mitigating the risks associated with DDIs. By accurately predicting potential interactions, clinicians and drug developers can improve patient outcomes, reduce healthcare costs, and enhance the quality of life for patients. Moreover, this study highlights the importance of selecting the appropriate molecular representation for predicting DDIs and provides insights for future research in this area.
-![Accuracy of Final Model By Class](https://github.com/Tcody6/tcody6.github.io/blob/main/img2DDI.png)
-
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/img2DDI.png"/>
+</p>
 
 
 
 ## NFL Big Data Bowl 2023: Expected Protection Time
 ###### For the 2023 season the theme of the NFL's annual analytics competition was evaluating offensive and defensive linemen. This project aims to develop a new statistic, called Estimated Pass Time (EPT), for evaluating the performance of offensive and defensive lines in American football. The EPT metric is created using a variant of the Cox proportional hazards model, a widely used regression model in the medical field to study patient survival. In this project, the model is adapted to predict the time until the defense is able to end a pass play by sacking, hurrying, or forcing the quarterback to run. The gradient boosted Cox proportional hazards model is used to predict EPT, allowing for interactions between predictor variables, such as down and distance. The traditional pressure rate metric used in the NFL is limited, as it does not account for how long the offensive line maintained a clean pocket or other factors that can affect performance. 
 ###### Data preperation for this project was very involved. Data provided by the NFL was in the form of raw player tracking data that had to be transformed until usable data for input in a modle. Ultimatley this data was used to train a variation on a Cox Proportional Hazard model that predicts whether a pass will be unpressured (0) or result in a sack or pressure (1), as well as the amount of time before the event occurs. The team and player performance were modeled separately, with features such as down, distance, time remaining, score, number of rushers, number of blockers, play action, and formation included. For team performance, two models were trained for every team in the league's offense and defense, while for player performance, a model was created for every single team. The modeling approach involved a CPH model, with parameters tuned to optimize performance. A minimum of 30 pass rush plays were required for a player to be included in the analysis. This methodology was limited to evaluating defenders as offensive linemen do not rotate regularly in the NFL.
-![Team EPT](https://github.com/Tcody6/tcody6.github.io/blob/main/TeamEPT.png)
-![Player EPT](https://github.com/Tcody6/tcody6.github.io/blob/main/PlayerEPT.png)
+
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/TeamEPT.png"/>
+</p>
+<p align="center">
+  <img src="https://github.com/Tcody6/tcody6.github.io/blob/main/PlayerEPT.png"/>
+</p>
+TeamEPT
+
+## Best Buy Sales Forecasting
+###### During the Best Buy MSA Project Week, I was part of a team that worked on forecasting slow-selling SKUs using time series analysis and machine learning techniques. Our main goal was to create a final dataset for model training by researching and sourcing external data for reuse and inclusion in the model. We also identified trends and seasonality patterns in the data to improve the model accuracy.
+
+###### To achieve our objective, we tested multiple models and ultimately selected XGBoost due to its superior performance in both accuracy and computational speed. The project required a combination of technical and analytical skills, including data cleaning, exploratory data analysis, feature engineering, and model selection. By using XGBoost, we were able to generate accurate forecasts that helped Best Buy optimize their inventory and improve their bottom line. 
